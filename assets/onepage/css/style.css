@@ -1,4 +1,4 @@
-/* General body settings */
+﻿/* General body settings */
 body { 
   color: #5f6f7e; 
   direction: ltr;
@@ -27,6 +27,61 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.logo-ex1 {
+    margin-bottom: 13px;
+}
+
+.circular-image img {
+width: 300px;
+height: 300px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+-ms-border-radius: 150px;
+-o-border-radius: 150px; 
+border-radius: 150px;                               
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.saturate img
+{
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.saturate img:hover
+{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+.image-combined {
+max-width: 300px;
+border:3px solid #828282;
+border-radius: 150px;
+-webkit-filter: grayscale(100%) blur(0px);
+}
+
 .content h1 strong, 
 .content h2 strong,
 .content h3 strong,
